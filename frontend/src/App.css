@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-logo {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.create-content {
+  margin: 20px 0;
+}
+
+.create-content input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-content button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-content button:hover {
+  background-color: #4CAF50;
+}
+
+.content-list {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.content-item {
+  background: white;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-item p {
+  margin: 5px 0;
+}
+
+.content-item button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.content-item button:hover {
+  background-color: #4CAF50;
+}
